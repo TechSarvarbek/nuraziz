@@ -1,0 +1,80 @@
+.padding1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: olivedrab;
+    position: fixed;
+    transition: 1s;
+}
+
+.padding2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 50px 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: rgb(255, 0, 0);
+    position: static;   
+    transition: 1s;
+}
+
+.padding3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 50px 60px 75px;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: rgb(255, 129, 129);
+    background-color: rgb(130, 197, 255);
+    position: relative;
+    transition: 1s;
+}
+
+.padding4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(28, 100, 255);
+    padding: 50px;
+    margin-left: 250px;
+    padding: 50px 60px 40px 100px;
+    border-radius: 10px;
+    color: rgb(225, 0, 255);
+    background-color: darkseagreen;
+    position: sticky;
+    transition: 1s;
+}
+
+.padding1:hover {
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-top: 500px;
+    background-color: gold;
+}
+
+.padding2:hover {
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-top: 500px;
+    background-color: fuchsia;
+}
+
+.padding3:hover {
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-top: 500px;
+    background-color: royalblue;
+}
+
+.padding4:hover {
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-top: 500px;
+}
