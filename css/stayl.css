@@ -1,80 +1,80 @@
-.padding1 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    padding: 50px;
-    border-radius: 10px;
-    background-color: blue;
-    color: olivedrab;
-    position: fixed;
-    transition: 1s;
+:root {
+    --color-primary: #eb2f64;
+    --color-primary-light: #ff3366;
+    --color-primary-dark: #ba265d;
+
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
 }
 
-.padding2 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    padding: 50px 40px;
-    margin-left: 500px;
-    border-radius: 10px;
-    background-color: darkblue;
-    color: rgb(255, 0, 0);
-    position: static;   
-    transition: 1s;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.padding3 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    padding: 50px 60px 75px;
-    text-align: center;
-    margin-left: 750px;
-    margin-top: 100px;
-    border-radius: 10px;
-    color: rgb(255, 129, 129);
-    background-color: rgb(130, 197, 255);
-    position: relative;
-    transition: 1s;
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
 }
 
-.padding4 {
-    width: 50px;
-    height: 50px;
-    border: 1px solid rgb(28, 100, 255);
-    padding: 50px;
-    margin-left: 250px;
-    padding: 50px 60px 40px 100px;
-    border-radius: 10px;
-    color: rgb(225, 0, 255);
-    background-color: darkseagreen;
-    position: sticky;
-    transition: 1s;
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-.padding1:hover {
-    border-radius: 100px;
-    margin-left: 500px;
-    margin-top: 500px;
-    background-color: gold;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    line-height: 1.6;
+    color: var(--color-grey-dark-2);
+    background-image: linear-gradient(to right bottom,
+            var(--color-primary-light),
+            var(--color-primary-dark));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
-.padding2:hover {
-    border-radius: 100px;
-    margin-left: 500px;
-    margin-top: 500px;
-    background-color: fuchsia;
+.contener {
+    /* max-width: 120px;
+    min-height: 50rem; */
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--color-grey-dark-1);
+    width: 80%;
+    height: 60vh;
 }
 
-.padding3:hover {
-    border-radius: 100px;
-    margin-left: 500px;
-    margin-top: 500px;
-    background-color: royalblue;
+.header {
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-dark-2);
 }
 
-.padding4:hover {
-    border-radius: 100px;
-    margin-left: 500px;
-    margin-top: 500px;
+.content {
+    display: flex;
 }
+
+.sidebarg {
+    background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%;
+}
+
+.hotel-View {
+    background-color: white;
+    flex-grow: 1;
+}
+
+
+
+
+
